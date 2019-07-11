@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.board {
+  background-color: #cccccc;
+  border-radius: 5px;
+  padding: 1vw;
+  margin-top: 10vh;
+}
+
+.board button {
+  width: 3vw;
+  height: 3vw;
+  margin: 1vw;
+  border: 1px solid #999;
+  border-radius: 50px;
+}
+
+.board button.hidden {
+  visibility: hidden;
+}
+
+.board button.peg {
+  background-color: #0000aa;
+}
+
+.board button.peg:hover {
+  background-color: #0000ff;
+}
+
+.board button.peg:active {
+  background-color: #000066;
+}
+
+.board button.hole {
+  background-color: #333333;
+}
+
+.board button.hole:hover {
+  cursor: default;
+}
