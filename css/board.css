@@ -45,3 +45,11 @@ body {
 #board button.hole:hover {
   cursor: default;
 }
+
+#board button.selected {
+  background-color: #00aa00;
+}
+
+#board button.selected:active {
+  background-color: #006600;
+}
