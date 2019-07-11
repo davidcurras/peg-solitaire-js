@@ -5,14 +5,15 @@ body {
   align-items: center;
 }
 
-.board {
+#board {
   background-color: #cccccc;
   border-radius: 5px;
   padding: 1vw;
   margin-top: 10vh;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-.board button {
+#board button {
   width: 3vw;
   height: 3vw;
   margin: 1vw;
@@ -20,26 +21,27 @@ body {
   border-radius: 50px;
 }
 
-.board button.hidden {
+#board button.hidden {
   visibility: hidden;
 }
 
-.board button.peg {
+#board button.peg {
   background-color: #0000aa;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-.board button.peg:hover {
+#board button.peg:hover {
   background-color: #0000ff;
 }
 
-.board button.peg:active {
+#board button.peg:active {
   background-color: #000066;
 }
 
-.board button.hole {
+#board button.hole {
   background-color: #333333;
 }
 
-.board button.hole:hover {
+#board button.hole:hover {
   cursor: default;
 }
