@@ -30,6 +30,10 @@ body {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
+#board button.suggestion {
+  background-color: #FFCE75;
+}
+
 #board button.peg:hover {
   background-color: #0000ff;
 }
